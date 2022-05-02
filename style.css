@@ -1,0 +1,96 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+
+/* LIELIE ELEMENTI */
+
+.pamats {
+    height: 200px;
+    width: 345px;
+    background-color: rgb(146, 145, 145);
+    position: relative;
+    left: 25px;
+}
+
+.jumts {
+    height: 0px;
+    width: 0px;
+    border-right: 200px solid transparent;
+    border-left: 200px solid transparent;
+    border-bottom: 200px solid #257582;
+}
+
+/* DETAĻAS */
+.majas_elementi {
+    position: relative;
+    display: flex;
+    top: -150px;
+}
+
+.logs1,
+.logs2 {
+    background-color: rgb(227, 227, 59);
+    max-width: 60px;
+    height: 80px;
+    width: 10vw;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, transparent 10%, transparent 90%, black 90%), linear-gradient(to bottom, transparent 10%, rgb(227, 227, 59) 10%, black 90%);
+    background-size: 2px 42px;
+}
+
+.logs1 {
+    position: relative;
+    left: 280px;
+}
+
+.logs2 {
+    position: relative;
+    right: 15px;
+}
+
+.durvis {
+    width: 90px;
+    height: 144px;
+    background-color: rgb(71, 63, 71);
+    position: relative;
+    left: 19px;
+    top: 4px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.skurstenis {
+    background-color: #257582;
+    max-width: 40px;
+    height: 50px;
+    position: relative;
+    top: 130px;
+    left: 70px;
+}
+
+/* LOGU RŪTIS */
+#logaruts1,
+#logaruts2 {
+    width: 2px;
+    height: 83px;
+    background-color: black;
+}
+
+#logaruts1 {
+    position: relative;
+    left: 313px;
+    z-index: 1;
+}
+
+#logaruts2 {
+    z-index: 2;
+    position: relative;
+    left: 18px;
+}
